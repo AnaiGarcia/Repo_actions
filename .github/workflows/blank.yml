@@ -59,6 +59,12 @@ jobs:
           echo El usuario es: ${{env.user}}
           echo La contraseña es: ${{env.password}}
 
+      # Impresion de variables abiertas
+      - name: variables abiertas
+        run: |
+          echo La variable abierta es: ${{ vars.SEM_14}}
+        
+
         
           
           
