@@ -48,7 +48,7 @@ jobs:
       - name: variables de entorno
         run: |
           echo La variable de entorno es: $MY_VAR
-          echo La region es: ${{env}}
-          echo La cantidad es: ${{env}}
+          echo La region es: ${{env.region}}
+          echo La cantidad es: ${{env.cantidad}}
           
           
